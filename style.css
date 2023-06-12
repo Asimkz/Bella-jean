@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bree+Serif&family=Libre+Baskerville&family=PT+Serif&family=Pacifico&family=Playfair+Display:wght@400;800&family=Roboto+Condensed:wght@300&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar-brand-centered{
+  height: auto;
+  width: 77px
+  }
+   
+  .nav-item a {
+         color: rgb(0, 0, 0);
+
+font-family: 'Playfair Display', serif;
+
+  }
+  .nav-item a :hover {
+    color: rgb(36, 0, 235);
+
+
+
+}
+  .header-background-image{
+    background: 
+    url(images/shutterstock_628764224.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  display: flex;
+  position: relative;
+  height: 590px
+  }
+ 
+  .contain-img{
+    background-image: url(images/bg2.png);
+   
+  }
+  .textone{
+font-family: 'Playfair Display', serif;
+
+  }
+  .texttwo{
+    font-family: 'Archivo Black', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+  }
+  .btn{
+    background-color: rgb(13, 13, 121);
+    color: white;
+  }
+  .img{
+    margin-top: 30%;
+    overflow: auto;
+  }
+  .secondbox{
+    background-color: red;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    justify-content: center;
+    display: flex;
+  }
+  .textfour{
+    display: flex;
+    float: right;
+    margin-right: 22%;
+    margin-top: 7%;
+    text-decoration: none;
+}
+.next-back-txt{
+  position: absolute;
+  right: 245px;
+  bottom: 0;
+ 
+}
+.next{
+  border-left: 1px solid black;
+  color: rgb(4, 4, 4);
+  margin-left: 10%;
+  padding-left: 10px;
+  text-decoration: none;
+  text-decoration-line: inherit;
+}
+.next:hover{
+color: yellow;
+
+}
+.banneerimgone{
+  width:51% ;
+  height: auto;
+}
+.back{
+  padding-right:10px ;
+  text-decoration: none;
+  color: black;
+  text-decoration-line: inherit;
+}
+.back:hover{
+  color: yellow;
+}
+.textcard1st{
+  position: relative;
+}
+.textcard2st{
+  position: relative;
+}
+.textcard3st{
+  position: relative;
+}
+.textcard4st{
+  position: relative;
+}
+.text2st{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  color: white;
+
+  font-family: 'Playfair Display', serif;
+}
+.text3st{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  color: white;
+
+  font-family: 'Playfair Display', serif;
+}
+.text4st{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  color: white;
+
+  font-family: 'Playfair Display', serif;
+}
+.text1st{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  color: white;
+
+  font-family: 'Playfair Display', serif;
+  
+}
+.text1st1{
+   color: white;
+  display: flex;
+  position: absolute;
+bottom: 0;
+  font-family: 'Playfair Display', serif;
+  
+}
+.fifth-img{
+position: relative;
+}
+
+.product-textone{
+  
+font-family: 'Playfair Display', serif;
+
+}
+.product-textTwo {
+ font-weight: 500;
+ 
+}
+.card-text{
+  font-family: 'Archivo Black', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: bolder;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 0,
+  'GRAD' 0,
+  'opsz' 0
+}
+.no1{
+  text-decoration: line-through;
+  font-size: 10px;
+}
+.no2{
+  color: green;
+  font-size: 10px;
+}
+.icon-texts{
+ display: flex;
+ 
+
+}
+#icondesigning{
+  margin-top: -5px;
+}
+.ICON-MAIN{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.overlay-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+.main-div-img{
+ position: relative;
+}
+.main-div-img::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(255, 174, 1);
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 12px;
+
+}
+.three-card-icon{
+  background-color: rgba(40, 39, 39, 0.185);
+}
+
+.main-div{
+  display: flex;
+    justify-content: space-between;
+}
+.main-div-img3{
+  position: relative;
+}
+.main-div-img3::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(255, 174, 1);
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 12px;
+}
+.main-div-img6{
+  position: relative;
+}
+.main-div-img6::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(255, 174, 1);
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 12px;
+}
+
+.main-div-img8{
+  position: relative;
+}
+.main-div-img8::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(255, 174, 1);
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 12px;
+}
+.introduction{
+  background-image: url(images/shutterstock_1182199747.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100% ;
+  height: 100vh
+  
+}
+.introtextone{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+.introtexttwo{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+.introbtn{
+  background-color: rgb(30, 11, 11);
+  color: white;
+  
+}
+.introbt{
+  display: flex;
+  justify-content: center;
+}
+.introbtn :hover{
+  box-shadow:blue;
+  color: white;
+  border-color: blue;
+}
+#prodcardtxt{
+  display: flex;
+  margin-top: 50px;
+}
+.main-div-img-9{
+  position: relative;
+}
+.main-div9-footer{
+  position: absolute;
+  bottom: 0;
+}
+.main-div-img-9::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(137, 111, 5);
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 3px;
+}
+.main-div10-footer{
+  position: absolute;
+  bottom: 0;
+}
+.main-div-img-10{
+ position: relative;
+}
+.main-div-img-10::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(137, 111, 5);
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 3px;
+}  
+.main-div-img-10::after{
+  content: "HOT";
+  top: 34px;
+  left: 8px;
+  background-color: rgb(40, 84, 1);
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 3px;
+}  
+.main-div11-footer{
+  position: absolute;
+  bottom: 0;
+}
+.main-div-img-11{
+ position: relative;
+}
+.main-div-img-11::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(137, 111, 5);
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 3px;
+}  
+.main-div12-footer{
+  position: absolute;
+  bottom: 0;
+}
+.main-div-img-12{
+ position: relative;
+}
+.main-div-img-12::before{
+  content: attr(title );
+  top: 8px;
+  left: 8px;
+  background-color: rgb(137, 111, 5);
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+  padding: 0 3px;
+}  
+    .card-header{
+      border-bottom: none;
+      background-color: none;
+    }
+    .card-footer{
+      border-top: none;
+      background-color: none;
+    }
+    .second-card-badge{
+     background-color: rgb(189, 189, 87) ;
+    }
+   
+        .next2{
+          border-left: 1px solid black;
+          color: rgb(0, 255, 55);
+        
+          padding-left: 10px;
+        }
+        #star-decorations :hover{
+          color: rgb(0, 0, 0);
+          font-weight: 900;
+          font-size: xx-large;
+
+        }
+        .footer-heading{
+          font-family: 'Playfair Display', serif;
+          font-weight: 800;
+          color: white;
+        }
+        .footer-a-text{
+          text-decoration: none;
+          color: rgb(129, 128, 128);
+          font-size: small;
+          
+        }
+        .footer-u{
+          list-style-type: none;
+          padding-left: 0%;
+        }
+        .footer{
+background-color: rgb(39, 39, 39);
+        }
+       .footer-lastrow-txt{
+        color: rgb(129, 128, 128);
+        font-size: small;
+       }
+       .navbar-toggler{
+        background-color: rgb(18, 17, 17);
+        border: 1px solid rgb(0, 13, 255);
+       }
+    
+       .header-background-image::before{
+        content: '';
+        background: url(images/bg2.png);
+        position: absolute;
+        background: cover;
+        top: 64px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+        height: 80%;
+       }
+.ban-text-first{
+  z-index: 0;
+
+}
+.ban-img{
+  position: absolute;
+    top: 71px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 301px;
+    width: 301px;
+}
+.main-btn-img-div{
+ position: relative;
+}
+
+.bton{
+  top: 284px;
+    background-color: blue;
+    color: white;
+    border: blue;
+    height: 90px;
+    width: 101px;
+    position: absolute;
+    right: 357px;
+}
+
+.back2{
+  text-decoration: none;
+  color: black;
+  text-decoration-line: underline;
+  margin-right: 11px;
+}
+.next2{
+  text-decoration: none;
+  color: black;
+  text-decoration-line: underline;
+}
+.back2:hover{
+  color: rgb(1, 99, 24);
+}
+.next2:hover{
+  color: rgb(10, 101, 0);
+}
+
+.main-div-img::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img:hover::after,
+.main-div-img:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.main-div-img2::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img2:hover::after,
+.main-div-img2:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.main-div-img3::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img3:hover::after,
+.main-div-img3:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.main-div-img4::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img4:hover::after,
+.main-div-img4:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.main-div-img5::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img5:hover::after,
+.main-div-img5:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.main-div-img6::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img6:hover::after,
+.main-div-img6:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.main-div-img7::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img7:hover::after,
+.main-div-img7:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.main-div-img8::after,
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; /* Initially hide the elements */
+  background: #0000001a;
+  text-decoration: none;
+  color: black;
+
+}
+
+.main-div-img8:hover::after,
+.main-div-img8:hover + .content {
+  display: grid; /* Display the elements after hovering */
+  
+  
+}
+.header-second-icon{
+  position: relative;
+}
+.shoping-bag-icon::after{
+  content: "1";
+  position: absolute;
+  bottom: 11px;
+  background-color: rgb(57, 108, 57);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 49%;
+  color: white;
+  left: 21px;
+  display: flex;
+  justify-content: center;
+}
+.vesibilty-icon-one{
+  text-decoration: none;
+  color: rgb(92, 90, 90);
+  
+}
+
